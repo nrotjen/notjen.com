@@ -1,20 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nicholas Otjen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N. OTJEN</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+        }
+
+        .home {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            display: block;
+            width: 600px;
+            height: auto;
+        }
+
+        .name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 32px;
+            letter-spacing: 5px;
+            color: white;
+            font-weight: normal;
+            white-space: nowrap;
+        }
+
+        .navigation {
+            margin-top: 25px;
+            font-size: 13px;
+        }
+
+        .navigation a {
+            color: #0000ee;
+            text-decoration: underline;
+            margin: 0 10px;
+        }
+
+        .navigation a:visited {
+            color: #551a8b;
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>Nicholas Otjen</h1>
+    <div class="home">
 
-<p>Welcome to notjen.com.</p>
+        <div class="image-container">
+            <img src="BG.jpg" alt="Barry Goldwater">
+            <div class="name">N. OTJEN</div>
+        </div>
 
-<p>I'm excited to share my thoughts with the world. 
+        <div class="navigation">
+            <a href="#">ABOUT</a>
+            <a href="#">REAL ESTATE</a>
+            <a href="#">ARCHITECTURE</a>
+            <a href="#">MUSIC</a>
+            <a href="#">PHOTOGRAPHS</a>
+            <a href="#">NOTES</a>
+        </div>
 
-<hr>
-
-<p>This website is currently under construction.</p>
+    </div>
 
 </body>
 </html>
