@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf — N. OTJEN</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .page {
+            width: 650px;
+            margin: 70px auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .header a.logo {
+            color: #000000;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 4px;
+        }
+
+        .navigation {
+            margin-top: 15px;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .navigation a {
+            color: #0000ee;
+            text-decoration: underline;
+            margin: 0 8px;
+        }
+
+        .navigation a:visited {
+            color: #551a8b;
+        }
+
+        .page-title {
+            font-size: 14px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        .book {
+            margin-bottom: 28px;
+        }
+
+        .book-title {
+            font-style: italic;
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 12px;
+        }
+
+        .footer a {
+            color: #0000ee;
+        }
+
+        .bottom-image {
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .bottom-image img {
+            width: 650px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="header">
+
+            <a class="logo" href="index.html">N. OTJEN</a>
+
+            <div class="navigation">
+                <a href="about.html">ABOUT</a>
+                <a href="#">REAL ESTATE</a>
+                <a href="#">ARCHITECTURE</a>
+                <a href="bookshelf.html">BOOKSHELF</a>
+                <a href="#">MUSIC</a>
+                <a href="#">NOTES</a>
+            </div>
+
+        </div>
+
+
+        <div class="page-title">BOOKSHELF</div>
+
+
+        <div class="book">
+            <div class="book-title">
+                Four Seasons: The Story of a Business Philosophy
+            </div>
+            Isadore Sharp
+        </div>
+
+
+        <div class="book">
+            <div class="book-title">
+                Balancing Acts: Unleashing the Power of Creativity
+            </div>
+            Daniel Lamarre
+        </div>
+
+
+        <div class="footer">
+            <a href="index.html">← back to home</a>
+        </div>
+
+
+        <div class="bottom-image">
+            <img src="titian" alt="">
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
